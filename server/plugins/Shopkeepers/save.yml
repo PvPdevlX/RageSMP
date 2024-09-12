@@ -1,0 +1,30 @@
+'1':
+  uniqueId: fa6d1d25-0ed7-452f-99c8-eaa8b5376c8b
+  name: Mythical Trader
+  world: world
+  x: 203
+  y: 139
+  z: 439
+  type: admin
+  object:
+    type: villager
+    uuid: 0ae68705-a614-4c58-9d30-9ec4b4602296
+    prof: PRIEST
+  recipes:
+    '0':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_BLOCK
+        amount: 64
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_BLOCK
+        amount: 64
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 10

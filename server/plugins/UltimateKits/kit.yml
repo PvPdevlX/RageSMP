@@ -1,0 +1,96 @@
+Kits:
+  Tools:
+    delay: 10
+    price: 0.0
+    hidden: false
+    animation: NONE
+    items:
+    - '{id:"minecraft:stone_pickaxe",Count:1b,Damage:0s}'
+    - '{id:"minecraft:stone_axe",Count:1b,Damage:0s}'
+    - '{id:"minecraft:stone_hoe",Count:1b,Damage:0s}'
+    - '{id:"minecraft:stone_shovel",Count:1b,Damage:0s}'
+  Better Tools:
+    delay: 300
+    price: 0.0
+    hidden: false
+    animation: NONE
+    items:
+    - '{id:"minecraft:diamond_axe",Count:1b,tag:{Enchantments:[0:{lvl:2s,id:"minecraft:efficiency"},1:{lvl:2s,id:"minecraft:unbreaking"}],moveable:1b},Damage:0s}'
+    - '{id:"minecraft:diamond_pickaxe",Count:1b,tag:{Enchantments:[0:{lvl:5s,id:"minecraft:efficiency"},1:{lvl:2s,id:"minecraft:unbreaking"}],moveable:1b},Damage:0s}'
+    - '{id:"minecraft:diamond_shovel",Count:1b,tag:{Enchantments:[0:{lvl:1s,id:"minecraft:efficiency"}],moveable:1b},Damage:0s}'
+    - '{id:"minecraft:diamond_hoe",Count:1b,tag:{Enchantments:[0:{lvl:3s,id:"minecraft:unbreaking"}],moveable:1b},Damage:0s}'
+  Brianna:
+    delay: 0
+    price: 0.0
+    hidden: false
+    animation: NONE
+    items:
+    - '{id:"minecraft:skull",Count:1b,tag:{SkullOwner:{Id:"2626974f-5838-44c6-994d-f6c723d40b79",Properties:{textures:[0:{Signature:"tQRjs3H+5H5A8Id/Hb2a3E+VDQY8sUKQYacc9ZYDsBncagNO6imX6h6qsDmtTDtliTh8ZzHRIAw/6gQeiODJnOm4PAB2vPnUv0VFAP2awbikJeOSuK3WZsvcUN78+hXLFFtvBUt/oGKpsTj5P//2+qH7QLqmrxFD72jGpmyS8Fp6AHuQqzeHn40isvKT2+oTItFb3wQ3H2QgudGxEhOX6Onz0M2xmH61+HF5ajPS+/2hUl5kjRk8uRLc2AJD162dECdYOUJ8/j47Fl9pJXG1dcG6cGMuRlDAim3AqfdJFTW0CI78YEpTTGZcLL+O+/yUMQD9hOQqjP7y63YIOZ9kAZ7DRzu5hQaHLevhUcTwZnkqs+F9eUuQR00y8PoVoSEOMrV4LIWAJFutdziNZX9I7MI9tJ0x96imA18yYC9Skwx7JHurC1wpdtSqS/F7gCeU3+2QiFufxX9ft9BPHSBX7z08nqQkwxYh0O/06OX+H0NJTLwYrK+hoTXT1A5dNrJIHzGuK9/qUaitH4yz0zv5aGd3vVytdKCULFqOTiqur1QYPvF9sI2fhvfcHqUc30yU1di0Ws5SOQzCAFLOypjUH1ezQMOK+Xy3ixB0a8HXI9RL8ewOvKaVepbWS1vomNNWfiCgpudbLW8x6bPvQLmZn8YWPjCAL0WFycnw8lm6JDg=",Value:"eyJ0aW1lc3RhbXAiOjE1NzA5MDI0MDg4ODEsInByb2ZpbGVJZCI6IjA2Y2NiMGU0MWM3NjQ0YjE5OGZiYzk5OTBhODcwNjAwIiwicHJvZmlsZU5hbWUiOiJCcmlhbm5hIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yN2I3MjM5Yzk2OWNhNzY0NWJmMTQzODc4M2Y1Y2FiZjdlMDhhYTViODY4OGFkODg3NWJhNzNlNTVhNDBlMjIiLCJtZXRhZGF0YSI6eyJtb2RlbCI6InNsaW0ifX19fQ=="}]}},display:{Name:"''{\"text\":\"Brianna\"}''"},Damage:3s},Damage:0s}'
+  noobie:
+    delay: 60
+    price: 0.0
+    hidden: false
+    animation: ROULETTE
+    items:
+    - chance:20.0;{id:"minecraft:diamond_sword",Count:1b,tag:{chance:20.0d,moveable:1b},Damage:0s}
+    - chance:35.0;{id:"minecraft:diamond_boots",Count:1b,tag:{chance:35.0d,moveable:1b},Damage:0s}
+    - chance:35.0;{id:"minecraft:diamond_leggings",Count:1b,tag:{chance:35.0d,moveable:1b},Damage:0s}
+    - chance:35.0;{id:"minecraft:diamond_chestplate",Count:1b,tag:{chance:35.0d,moveable:1b},Damage:0s}
+    - chance:35.0;{id:"minecraft:diamond_helmet",Count:1b,tag:{chance:35.0d,moveable:1b},Damage:0s}
+    - chance:65.0;{id:"minecraft:golden_apple",Count:5b,tag:{chance:65.0d,moveable:1b},Damage:0s}
+    - '{id:"minecraft:paper",Count:1b,tag:{display:{Lore:[0:"§a$0"],Name:"§6Money"},moveable:1b},Damage:0s}'
+    - '{id:"minecraft:tripwire_hook",Count:1b,tag:{display:{Lore:[0:"§eRegular §fKey",1:"§fRight-Click on a §c§lNoobie§f§l kit",2:"§fand receive some of its contents!"],Name:"§5Noobie §fKit Key"},kit:"Noobie",moveable:1b,key:"Regular"},Damage:0s}'
+    - chance:25.0;{id:"minecraft:tripwire_hook",Count:1b,tag:{chance:25.0d,display:{Lore:[0:"§eRegular §fKey",1:"§fRight-Click on a §c§lVip§f§l kit",2:"§fand receive some of its contents!"],Name:"§5Vip §fKit Key"},kit:"Vip",moveable:1b,key:"Regular"},Damage:0s}
+    title: '&b&lNoobie Crate'
+  vip:
+    delay: 0
+    price: 0.0
+    hidden: false
+    animation: ROULETTE
+    items:
+    - '{id:"minecraft:diamond_boots",Count:1b,tag:{ench:[0:{lvl:2s,id:0s}],moveable:1b},Damage:0s}'
+    - '{id:"minecraft:diamond_leggings",Count:1b,tag:{ench:[0:{lvl:2s,id:0s}],moveable:1b},Damage:0s}'
+    - '{id:"minecraft:diamond_chestplate",Count:1b,tag:{ench:[0:{lvl:2s,id:0s}],moveable:1b},Damage:0s}'
+    - '{id:"minecraft:diamond_helmet",Count:1b,tag:{ench:[0:{lvl:2s,id:0s}],moveable:1b},Damage:0s}'
+    - '{id:"minecraft:diamond_sword",Count:1b,tag:{ench:[0:{lvl:3s,id:16s}],moveable:1b},Damage:0s}'
+    title: '&b&lVIP Crate'
+  mvp:
+    delay: 0
+    price: 0.0
+    hidden: false
+    animation: ROULETTE
+    items:
+    - '{id:"minecraft:tripwire_hook",Count:1b,tag:{display:{Lore:[0:"§eRegular §fKey",1:"§fRight-Click on a §c§lNoobie§f§l kit",2:"§fand receive some of its contents!"],Name:"§5Noobie §fKit Key"},kit:"Noobie",moveable:1b,key:"Regular"},Damage:0s}'
+    - '{id:"minecraft:tripwire_hook",Count:1b,tag:{display:{Lore:[0:"§eRegular §fKey",1:"§fRight-Click on a §c§lVip§f§l kit",2:"§fand receive some of its contents!"],Name:"§5Vip §fKit Key"},kit:"Vip",moveable:1b,key:"Regular"},Damage:0s}'
+    - '{id:"minecraft:diamond_boots",Count:1b,tag:{ench:[0:{lvl:3s,id:0s}],moveable:1b},Damage:0s}'
+    - '{id:"minecraft:diamond_leggings",Count:1b,tag:{ench:[0:{lvl:3s,id:0s}],moveable:1b},Damage:0s}'
+    - '{id:"minecraft:diamond_chestplate",Count:1b,tag:{moveable:1b},Damage:0s}'
+    - '{id:"minecraft:diamond_helmet",Count:1b,tag:{moveable:1b},Damage:0s}'
+    - '{id:"minecraft:diamond_sword",Count:1b,tag:{ench:[0:{lvl:4s,id:16s},1:{lvl:1s,id:20s}],moveable:1b},Damage:0s}'
+    title: '&b&lMVP crate'
+  godly:
+    delay: 0
+    price: 0.0
+    hidden: false
+    animation: ROULETTE
+    items:
+    - '{id:"minecraft:diamond_sword",Count:1b,tag:{ench:[0:{lvl:5s,id:16s},1:{lvl:3s,id:34s},2:{lvl:2s,id:20s},3:{lvl:3s,id:21s}],moveable:1b},Damage:0s}'
+    - '{id:"minecraft:diamond_boots",Count:1b,tag:{ench:[0:{lvl:4s,id:0s},1:{lvl:3s,id:34s}],moveable:1b},Damage:0s}'
+    - '{id:"minecraft:diamond_leggings",Count:1b,tag:{ench:[0:{lvl:4s,id:0s},1:{lvl:3s,id:34s}],moveable:1b},Damage:0s}'
+    - '{id:"minecraft:diamond_chestplate",Count:1b,tag:{ench:[0:{lvl:4s,id:0s},1:{lvl:3s,id:34s}],moveable:1b},Damage:0s}'
+    - '{id:"minecraft:diamond_helmet",Count:1b,tag:{ench:[0:{lvl:4s,id:0s},1:{lvl:3s,id:34s}],moveable:1b},Damage:0s}'
+    - '{id:"minecraft:golden_apple",Count:64b,tag:{moveable:1b},Damage:1s}'
+    - '{id:"minecraft:golden_apple",Count:64b,tag:{moveable:1b},Damage:0s}'
+  racoon:
+    delay: 0
+    price: 0.0
+    hidden: true
+    animation: NONE
+    items:
+    - '{id:"minecraft:diamond_sword",Count:1b,tag:{ench:[0:{lvl:5s,id:16s},1:{lvl:3s,id:34s},2:{lvl:2s,id:20s},3:{lvl:3s,id:21s}],moveable:1b},Damage:0s}'
+    - '{id:"minecraft:diamond_boots",Count:1b,tag:{ench:[0:{lvl:4s,id:0s},1:{lvl:3s,id:34s}],moveable:1b},Damage:0s}'
+    - '{id:"minecraft:diamond_leggings",Count:1b,tag:{ench:[0:{lvl:4s,id:0s},1:{lvl:3s,id:34s}],moveable:1b},Damage:0s}'
+    - '{id:"minecraft:diamond_chestplate",Count:1b,tag:{ench:[0:{lvl:4s,id:0s},1:{lvl:3s,id:34s}],moveable:1b},Damage:0s}'
+    - '{id:"minecraft:diamond_helmet",Count:1b,tag:{ench:[0:{lvl:4s,id:0s},1:{lvl:3s,id:34s}],moveable:1b},Damage:0s}'
+    - '{id:"minecraft:golden_apple",Count:64b,tag:{moveable:1b},Damage:1s}'
+    - '{id:"minecraft:golden_apple",Count:64b,tag:{moveable:1b},Damage:0s}'
